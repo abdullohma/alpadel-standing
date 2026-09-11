@@ -1,1 +1,1 @@
-# acetennissquad-standing
+# alpadel-standing
