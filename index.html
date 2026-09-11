@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ACE Tennis League - Leaderboard & Statistics</title>
+    <title>ALPadeL - Live Leaderboard & Statistics</title>
     
     <!-- Google Fonts: Poppins -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,11 +20,11 @@
                         sans: ['Poppins', 'sans-serif'],
                     },
                     colors: {
-                        ace: {
-                            light: '#a855f7', // Purple 500
-                            DEFAULT: '#7e22ce', // Purple 700
-                            dark: '#581c87', // Purple 900
-                            accent: '#65a30d', // Lime 600 (Green)
+                        padel: {
+                            light: '#10b981', // emerald-500
+                            DEFAULT: '#047857', // emerald-700
+                            dark: '#064e3b', // emerald-900
+                            accent: '#7e22ce', // purple-700
                         }
                     }
                 }
@@ -56,48 +56,44 @@
         }
     </style>
 </head>
-<body class="bg-gradient-to-br from-slate-900 via-purple-900 to-slate-800 min-h-screen p-4 md:p-8 text-slate-800 antialiased selection:bg-ace-light selection:text-white">
+<body class="bg-gradient-to-br from-slate-900 via-emerald-900 to-slate-800 min-h-screen p-4 md:p-8 text-slate-800 antialiased selection:bg-padel-light selection:text-white">
 
     <div class="max-w-7xl mx-auto bg-white rounded-3xl shadow-2xl overflow-hidden ring-1 ring-white/20">
         
         <!-- Header Section -->
         <div class="relative bg-white px-6 py-16 md:py-20 text-center border-b border-slate-100 overflow-hidden">
             <!-- Decorative background elements -->
-            <!-- Dot pattern background -->
             <div class="absolute inset-0 opacity-40" style="background-image: radial-gradient(#94a3b8 1.5px, transparent 1.5px); background-size: 24px 24px; mask-image: linear-gradient(to bottom, black 40%, transparent 100%); -webkit-mask-image: linear-gradient(to bottom, black 40%, transparent 100%);"></div>
 
             <div class="absolute top-0 left-0 w-full h-full overflow-hidden z-0 opacity-60 pointer-events-none">
-                <div class="absolute -top-20 -left-10 w-64 h-64 bg-purple-300 rounded-full mix-blend-multiply filter blur-3xl opacity-60 animate-pulse" style="animation-duration: 4s;"></div>
-                <div class="absolute top-10 -right-10 w-64 h-64 bg-lime-200 rounded-full mix-blend-multiply filter blur-3xl opacity-60 animate-pulse" style="animation-duration: 5s;"></div>
+                <div class="absolute -top-20 -left-10 w-64 h-64 bg-emerald-300 rounded-full mix-blend-multiply filter blur-3xl opacity-60 animate-pulse" style="animation-duration: 4s;"></div>
+                <div class="absolute top-10 -right-10 w-64 h-64 bg-purple-200 rounded-full mix-blend-multiply filter blur-3xl opacity-60 animate-pulse" style="animation-duration: 5s;"></div>
             </div>
 
             <div class="relative z-10 flex flex-col items-center">
                 <div class="relative mb-6 group">
                     <!-- Subtle glowing aura behind logo -->
-                    <div class="absolute inset-0 bg-gradient-to-tr from-purple-200 to-lime-200 rounded-full blur-2xl opacity-40 group-hover:opacity-70 transition-opacity duration-500"></div>
-                    <img src="https://github.com/abdullohma/shareable-figure/blob/main/9BC08737-12C5-4A1E-9B4F-87CD7DEAFD12.png?raw=true" alt="ACE Tennis Squad Logo" class="relative z-10 h-48 md:h-60 w-auto object-contain hover:scale-105 transition-transform duration-500 mix-blend-multiply brightness-105">
+                    <div class="absolute inset-0 bg-gradient-to-tr from-emerald-200 to-purple-200 rounded-full blur-2xl opacity-40 group-hover:opacity-70 transition-opacity duration-500"></div>
+                    <img src="https://github.com/abdullohma/shareable-figure/blob/main/3A8C5910-7413-4059-AA75-A3004E22BD9A.png?raw=true" alt="ALPadeL Logo" class="relative z-10 h-48 md:h-60 w-auto object-contain hover:scale-105 transition-transform duration-500 mix-blend-multiply brightness-105">
                 </div>
                 
                 <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-3 tracking-tight leading-tight">
-                    <span class="bg-gradient-to-r from-ace-dark via-ace to-lime-600 bg-clip-text text-transparent drop-shadow-sm block md:inline">
-                        Leaderboard &
-                    </span>
-                    <span class="bg-gradient-to-r from-ace-dark via-ace to-lime-600 bg-clip-text text-transparent drop-shadow-sm block md:inline">
-                        Statistics
+                    <span class="bg-gradient-to-r from-padel-dark via-padel to-emerald-500 bg-clip-text text-transparent drop-shadow-sm block md:inline">
+                        Live Leaderboard
                     </span>
                 </h1>
                 
                 <div class="flex items-center justify-center gap-4 mb-10 mt-2">
-                    <div class="h-px w-12 md:w-20 bg-gradient-to-r from-transparent to-purple-300"></div>
-                    <p class="text-xl md:text-2xl font-black text-purple-500 tracking-[0.25em] uppercase drop-shadow-sm">2🎾26</p>
-                    <div class="h-px w-12 md:w-20 bg-gradient-to-l from-transparent to-purple-300"></div>
+                    <div class="h-px w-12 md:w-20 bg-gradient-to-r from-transparent to-emerald-300"></div>
+                    <p class="text-xl md:text-2xl font-black text-emerald-600 tracking-[0.25em] uppercase drop-shadow-sm">2🎾26</p>
+                    <div class="h-px w-12 md:w-20 bg-gradient-to-l from-transparent to-emerald-300"></div>
                 </div>
                 
-                <div class="inline-flex items-center gap-2.5 bg-white text-slate-700 px-6 py-2.5 rounded-full text-sm font-bold shadow-[0_4px_20px_-4px_rgba(101,163,13,0.3)] border border-lime-100 hover:shadow-[0_4px_20px_-4px_rgba(101,163,13,0.5)] transition-all hover:-translate-y-0.5">
+                <div class="inline-flex items-center gap-2.5 bg-white text-slate-700 px-6 py-2.5 rounded-full text-sm font-bold shadow-[0_4px_20px_-4px_rgba(16,185,129,0.3)] border border-emerald-100 hover:shadow-[0_4px_20px_-4px_rgba(16,185,129,0.5)] transition-all hover:-translate-y-0.5">
                     <!-- Live indicator dot -->
                     <span class="relative flex h-3 w-3">
-                      <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-lime-400 opacity-75"></span>
-                      <span class="relative inline-flex rounded-full h-3 w-3 bg-lime-500"></span>
+                      <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+                      <span class="relative inline-flex rounded-full h-3 w-3 bg-emerald-500"></span>
                     </span>
                     Current Player Stats
                 </div>
@@ -111,54 +107,42 @@
             <div class="max-w-4xl mx-auto mb-8 text-center bg-slate-50 p-6 rounded-2xl border border-slate-100">
                 <h2 class="text-xl md:text-2xl font-bold text-slate-800 mb-5 leading-snug">
                     Welcome to Player Stats
-                    <span class="text-ace-dark block text-2xl md:text-3xl mt-2">ACE Tennis Squad</span>
-                    <span class="text-ace font-black block text-3xl md:text-4xl mt-1 drop-shadow-sm">2🎾26</span>
+                    <span class="text-padel-dark block text-2xl md:text-3xl mt-2">ALPadeL</span>
+                    <span class="text-padel font-black block text-3xl md:text-4xl mt-1 drop-shadow-sm">2🎾26</span>
                 </h2>
                 
                 <p class="text-slate-600 text-sm md:text-base leading-relaxed mb-4">
-                    Sistem ini dirancang murni untuk mencatat statistik performa kita agar lebih terstruktur dan seru. Di sini kita fokus pada <em>improvement</em> pribadi, baik dari <em>Win Rate</em> maupun <em>Diff</em> (selisih poin).
+                    Sistem ini dirancang murni untuk mencatat statistik performa Padel kita dengan fitur <em>Matchup Handicap</em> agar kompetisi lebih adil dan seru.
                 </p>
 
-                <div class="bg-purple-50/80 p-4 md:p-5 rounded-xl border border-purple-100/50 inline-block text-left text-sm md:text-base shadow-sm text-purple-700 space-y-3">
-                    <p>📌 <strong>Btw,</strong> ini bukan peringkat kompetisi resmi yang tegang ya, murni buat <strong>seru-seruan & ngukur statistik pribadi</strong> aja.</p>
-                    <p>🎁 <strong>Kejutan Akhir Tahun!</strong> Pemain yang berhasil menduduki puncak Leaderboard di akhir tahun nanti akan mendapatkan <strong>suvenir menarik</strong>! Tetap semangat mainnya! 🏆</p>
+                <div class="bg-emerald-50/80 p-4 md:p-5 rounded-xl border border-emerald-100/50 inline-block text-left text-sm md:text-base shadow-sm text-emerald-800 space-y-3">
+                    <p>📌 <strong>Handicap System Aktif:</strong> Poin kemenangan (Win) dan selisih skor (Diff) dihitung dengan pengali khusus tergantung dari jenis pasangan lawan (Misal: Mix vs Men).</p>
+                    <p>🎁 <strong>Kejutan Akhir Tahun!</strong> Pemain yang berhasil menduduki puncak Leaderboard akan mendapatkan suvenir menarik! 🏆</p>
                 </div>
 
-                <p class="mt-6 font-semibold text-ace text-lg md:text-xl">
-                    Keep playing with ACE Tennis Squad, enjoy your progress, and have fun! 🔥
+                <p class="mt-6 font-semibold text-padel text-lg md:text-xl">
+                    Keep smashing the court, enjoy your progress, and have fun! 🔥
                 </p>
             </div>
 
             <!-- TOGGLE BUTTONS -->
             <div class="flex flex-col lg:flex-row justify-center items-center gap-4 lg:gap-6 mb-10">
-                <!-- FORMAT TOGGLE -->
+                <!-- GENDER/CATEGORY TOGGLE (No Format Toggle Needed) -->
                 <div class="inline-flex bg-slate-100 p-1.5 rounded-full shadow-inner border border-slate-200">
-                    <button id="btnDouble" onclick="switchFormat('double')" class="px-5 md:px-8 py-2.5 rounded-full text-sm font-bold transition-all duration-300 bg-transparent text-slate-500 hover:text-ace flex items-center gap-2 justify-center">
-                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9 6a3 3 0 11-6 0 3 3 0 016 0zM17 6a3 3 0 11-6 0 3 3 0 016 0zM12.93 17c.046-.327.07-.66.07-1a6.97 6.97 0 00-1.5-4.33A5 5 0 0119 16v1h-6.07zM6 11a5 5 0 015 5v1H1v-1a5 5 0 015-5z"></path></svg>
-                        Double
-                    </button>
-                    <button id="btnSingle" onclick="switchFormat('single')" class="px-5 md:px-8 py-2.5 rounded-full text-sm font-bold transition-all duration-300 bg-ace text-white shadow-md flex items-center gap-2 justify-center">
-                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd"></path></svg>
-                        Single
-                    </button>
-                </div>
-                
-                <!-- GENDER/CATEGORY TOGGLE -->
-                <div class="inline-flex bg-slate-100 p-1.5 rounded-full shadow-inner border border-slate-200">
-                    <button id="btnCatAll" onclick="switchGender('ALL')" class="px-4 md:px-6 py-2.5 rounded-full text-sm font-bold transition-all duration-300 bg-ace text-white shadow-md flex items-center gap-2 justify-center">
+                    <button id="btnCatAll" onclick="switchGender('ALL')" class="px-4 md:px-6 py-2.5 rounded-full text-sm font-bold transition-all duration-300 bg-padel text-white shadow-md flex items-center gap-2 justify-center">
                         <svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
                            <path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"></path>
                         </svg>
-                        All
+                        All Players
                     </button>
-                    <button id="btnCatM" onclick="switchGender('M')" class="px-4 md:px-6 py-2.5 rounded-full text-sm font-bold transition-all duration-300 bg-transparent text-slate-500 hover:text-ace flex items-center gap-2 justify-center">
+                    <button id="btnCatM" onclick="switchGender('M')" class="px-4 md:px-6 py-2.5 rounded-full text-sm font-bold transition-all duration-300 bg-transparent text-slate-500 hover:text-padel flex items-center gap-2 justify-center">
                         <svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
                             <circle cx="12" cy="6" r="4"></circle>
                             <path d="M16 11H8c-2.2 0-4 1.8-4 4v6h16v-6c0-2.2-1.8-4-4-4z"></path>
                         </svg>
                         Men
                     </button>
-                    <button id="btnCatF" onclick="switchGender('F')" class="px-4 md:px-6 py-2.5 rounded-full text-sm font-bold transition-all duration-300 bg-transparent text-slate-500 hover:text-ace flex items-center gap-2 justify-center">
+                    <button id="btnCatF" onclick="switchGender('F')" class="px-4 md:px-6 py-2.5 rounded-full text-sm font-bold transition-all duration-300 bg-transparent text-slate-500 hover:text-padel flex items-center gap-2 justify-center">
                         <svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
                             <circle cx="12" cy="6" r="4"></circle>
                             <path d="M12 11l-6 11h12z"></path>
@@ -185,7 +169,7 @@
                             <div>
                                 <label for="minGames" class="block text-xs font-bold text-slate-500 mb-2 uppercase tracking-wide">Min. Games:</label>
                                 <div class="relative">
-                                    <select id="minGames" onchange="filterPlayers()" class="w-full appearance-none bg-white border-2 border-slate-200 text-slate-700 py-2.5 px-4 pr-8 rounded-xl leading-tight focus:outline-none focus:border-ace focus:ring-4 focus:ring-ace/10 transition-all cursor-pointer font-semibold text-sm">
+                                    <select id="minGames" onchange="filterPlayers()" class="w-full appearance-none bg-white border-2 border-slate-200 text-slate-700 py-2.5 px-4 pr-8 rounded-xl leading-tight focus:outline-none focus:border-padel focus:ring-4 focus:ring-padel/10 transition-all cursor-pointer font-semibold text-sm">
                                         <option value="0" selected>All Games</option>
                                         <option value="5">5+ Games</option>
                                         <option value="10">10+ Games</option>
@@ -202,7 +186,7 @@
                             <div>
                                 <label for="tierFilter" class="block text-xs font-bold text-slate-500 mb-2 uppercase tracking-wide">Win %:</label>
                                 <div class="relative">
-                                    <select id="tierFilter" onchange="filterPlayers()" class="w-full appearance-none bg-white border-2 border-slate-200 text-slate-700 py-2.5 px-4 pr-8 rounded-xl leading-tight focus:outline-none focus:border-ace focus:ring-4 focus:ring-ace/10 transition-all cursor-pointer font-semibold text-sm">
+                                    <select id="tierFilter" onchange="filterPlayers()" class="w-full appearance-none bg-white border-2 border-slate-200 text-slate-700 py-2.5 px-4 pr-8 rounded-xl leading-tight focus:outline-none focus:border-padel focus:ring-4 focus:ring-padel/10 transition-all cursor-pointer font-semibold text-sm">
                                         <option value="ALL" selected>Semua Win %</option>
                                         <option value="ATAS">> 80%</option>
                                         <option value="TENGAH">51% - 80%</option>
@@ -218,7 +202,7 @@
                             <div>
                                 <label for="sortBy" class="block text-xs font-bold text-slate-500 mb-2 uppercase tracking-wide">Urutkan:</label>
                                 <div class="relative">
-                                    <select id="sortBy" onchange="filterPlayers()" class="w-full appearance-none bg-white border-2 border-slate-200 text-slate-700 py-2.5 px-4 pr-8 rounded-xl leading-tight focus:outline-none focus:border-ace focus:ring-4 focus:ring-ace/10 transition-all cursor-pointer font-semibold text-sm">
+                                    <select id="sortBy" onchange="filterPlayers()" class="w-full appearance-none bg-white border-2 border-slate-200 text-slate-700 py-2.5 px-4 pr-8 rounded-xl leading-tight focus:outline-none focus:border-padel focus:ring-4 focus:ring-padel/10 transition-all cursor-pointer font-semibold text-sm">
                                         <option value="name">Abjad (A-Z)</option>
                                         <option value="points" selected>Total Poin</option>
                                         <option value="games">Games</option>
@@ -236,12 +220,12 @@
                                 <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
                                     <svg class="w-4 h-4 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
                                 </div>
-                                <input type="text" id="searchInput" oninput="filterPlayers()" placeholder="Cari nama pemain..." class="w-full pl-10 pr-4 py-2.5 bg-white border-2 border-slate-200 rounded-xl text-sm text-slate-700 placeholder-slate-400 focus:outline-none focus:border-ace focus:ring-4 focus:ring-ace/10 transition-all font-semibold">
+                                <input type="text" id="searchInput" oninput="filterPlayers()" placeholder="Cari nama pemain..." class="w-full pl-10 pr-4 py-2.5 bg-white border-2 border-slate-200 rounded-xl text-sm text-slate-700 placeholder-slate-400 focus:outline-none focus:border-padel focus:ring-4 focus:ring-padel/10 transition-all font-semibold">
                             </div>
                         </div>
 
                         <!-- Player Count Indicator -->
-                        <div class="text-sm font-medium text-ace flex items-center gap-2 bg-ace/5 p-3 rounded-xl border border-ace/10">
+                        <div class="text-sm font-medium text-padel flex items-center gap-2 bg-padel/5 p-3 rounded-xl border border-padel/10">
                             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
                             <span id="playerCount">Memuat...</span>
                         </div>
@@ -255,43 +239,44 @@
             </div>
 
             <!-- Formula Info Box -->
-            <div class="mb-6 bg-purple-50 border border-purple-100 rounded-xl p-4 md:p-5 flex items-start sm:items-center gap-4 shadow-sm transition-all hover:shadow-md">
-                <div class="bg-purple-200/50 p-3 rounded-xl shrink-0">
+            <div class="mb-6 bg-emerald-50 border border-emerald-100 rounded-xl p-4 md:p-5 flex items-start sm:items-center gap-4 shadow-sm transition-all hover:shadow-md">
+                <div class="bg-emerald-200/50 p-3 rounded-xl shrink-0">
                     <span class="text-xl sm:text-2xl leading-none">🧮</span>
                 </div>
                 <div class="w-full">
-                    <h4 class="text-sm font-extrabold text-purple-900 mb-2 uppercase tracking-wider flex items-center justify-between">
+                    <h4 class="text-sm font-extrabold text-emerald-900 mb-2 uppercase tracking-wider flex items-center justify-between">
                         Rumus Perhitungan Poin
-                        <span class="text-xs font-semibold bg-white/60 px-2 py-0.5 rounded text-purple-600 hidden sm:inline-block">Hybrid Margin System</span>
+                        <span class="text-xs font-semibold bg-white/60 px-2 py-0.5 rounded text-emerald-700 hidden sm:inline-block">Hybrid Margin & Handicap System</span>
                     </h4>
                     
-                    <div class="text-xs sm:text-sm text-purple-800 flex flex-wrap items-center gap-x-2 gap-y-2 font-medium mb-3">
-                        <span class="bg-purple-200/60 px-2.5 py-1 rounded-md text-purple-900 font-bold">Total Poin</span> 
-                        <span class="font-bold text-purple-400">=</span>
-                        <span class="bg-white px-2.5 py-1 rounded-md shadow-sm border border-purple-100/50">Base Poin (Win)</span> 
-                        <span class="font-bold text-purple-400">+</span>
-                        <span class="bg-white px-2.5 py-1 rounded-md shadow-sm border border-purple-100/50">Diff Point</span>
-                        <span class="font-bold text-purple-400">+</span>
-                        <span class="bg-white px-2.5 py-1 rounded-md shadow-sm border border-purple-100/50 text-ace-dark">Game Point</span>
+                    <div class="text-xs sm:text-sm text-emerald-800 flex flex-wrap items-center gap-x-2 gap-y-2 font-medium mb-3">
+                        <span class="bg-emerald-200/60 px-2.5 py-1 rounded-md text-emerald-900 font-bold">Total Poin</span> 
+                        <span class="font-bold text-emerald-500">=</span>
+                        <span class="bg-white px-2.5 py-1 rounded-md shadow-sm border border-emerald-100/50">Base Poin (Win)</span> 
+                        <span class="font-bold text-emerald-500">+</span>
+                        <span class="bg-white px-2.5 py-1 rounded-md shadow-sm border border-emerald-100/50">Diff Point</span>
+                        <span class="font-bold text-emerald-500">+</span>
+                        <span class="bg-white px-2.5 py-1 rounded-md shadow-sm border border-emerald-100/50 text-padel-dark">Game Point</span>
                     </div>
 
                     <!-- Layout 3 Kolom -->
-                    <div class="grid grid-cols-1 md:grid-cols-3 gap-3 text-xs text-purple-700 bg-white/50 p-3 rounded-lg border border-purple-100/50">
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-3 text-xs text-emerald-800 bg-white/50 p-3 rounded-lg border border-emerald-100/50">
                         <div>
-                            <strong class="text-purple-900">1. Base Poin (Win %):</strong> <br>
-                            Murni dari persentase kemenangan (100% = 100 Poin). <br>
+                            <strong class="text-emerald-900">1. Base Poin (Win %):</strong> <br>
+                            Murni dari persentase *Weighted Win* (100% = 100 Poin). <br>
+                            <span class="text-[10px] text-emerald-600 leading-tight block mt-1">Wins sudah dikalikan bobot lawan (Handicap).</span>
                         </div>
                         <div>
-                            <strong class="text-purple-900">2. Diff Point:</strong> <br>
+                            <strong class="text-emerald-900">2. Diff Point:</strong> <br>
                             Poin Selisih Skor: <br>
                             <code>(Tot Diff × 0.15) + <br>(Avg Diff × 2.0)</code>
                         </div>
                         <div>
-                            <strong class="text-purple-900">3. Game Point:</strong> <br>
+                            <strong class="text-emerald-900">3. Game Point:</strong> <br>
                             <code>Margin Linear - Penalti Inaktif</code><br>
-                            <span class="text-[10px] text-purple-500 leading-tight block mt-1">
+                            <span class="text-[10px] text-emerald-600 leading-tight block mt-1">
                                 *Margin Linear: Selisih dr rata-rata × 0.20 (Game > 24 × 0.10).<br>
-                                *Penalti Inaktif: Dipotong 10% dari Win Rate per bulan absen/tidak main.
+                                *Penalti Inaktif: Dipotong 10% dari Win Rate per bulan absen.
                             </span>
                         </div>
                     </div>
@@ -302,7 +287,7 @@
             <div class="bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm">
                 <div class="table-container overflow-x-auto">
                     <table class="w-full whitespace-nowrap text-sm text-left">
-                        <thead class="bg-ace-dark text-white uppercase font-semibold text-xs tracking-wider">
+                        <thead class="bg-padel-dark text-white uppercase font-semibold text-xs tracking-wider">
                             <tr>
                                 <th scope="col" class="px-4 py-4 rounded-tl-xl text-center w-12">#</th>
                                 <th scope="col" class="px-6 py-4">Player</th>
@@ -311,7 +296,7 @@
                                 <th scope="col" class="px-6 py-4 text-center">Games</th>
                                 <th scope="col" class="px-6 py-4 text-center tooltip-hint" title="Gabungan Total Diff & Avg Diff">Diff Point</th>
                                 <th scope="col" class="px-6 py-4 text-center tooltip-hint" title="Margin Linear dari Rata-rata dikurangi Penalti Inaktif">Game Point</th>
-                                <th scope="col" class="px-6 py-4 text-center bg-ace rounded-tr-xl">Total Poin</th>
+                                <th scope="col" class="px-6 py-4 text-center bg-padel rounded-tr-xl">Total Poin</th>
                             </tr>
                         </thead>
                         <tbody id="leaderboardBody" class="divide-y divide-slate-100">
@@ -326,154 +311,19 @@
 
     <script>
         // ============================================
-        // DATA DOUBLE FORMAT
+        // DATA SINGLE FORMAT (Handicap Padel Decimal Data)
         // ============================================
-        const rawDoublePlayersData = [
-            { name: "Gian", gender: "M", games: 10, wins: 8, totalDiff: 22, joinMonth: "Juni" },
-            { name: "Tommy", gender: "M", games: 19, wins: 13, totalDiff: 19, joinMonth: "Veteran" },
-            { name: "Faiz", gender: "M", games: 12, wins: 8, totalDiff: 15, joinMonth: "Veteran" },
-            { name: "Whika", gender: "M", games: 16, wins: 10, totalDiff: 13, joinMonth: "Veteran" },
-            { name: "Leo", gender: "M", games: 26, wins: 14, totalDiff: 14, joinMonth: "Veteran" },
-            { name: "Frans", gender: "M", games: 25, wins: 14, totalDiff: 1, joinMonth: "Agustus" },
-            { name: "Reiza", gender: "M", games: 22, wins: 12, totalDiff: 8, joinMonth: "Agustus" },
-            { name: "Kurniawan", gender: "M", games: 8, wins: 2, totalDiff: -7, joinMonth: "Agustus" },
-            { name: "Bayu", gender: "M", games: 19, wins: 8, totalDiff: -8, joinMonth: "Agustus" },
-            { name: "Zidan", gender: "M", games: 14, wins: 5, totalDiff: -14, joinMonth: "Veteran" },
-            { name: "Huda", gender: "M", games: 14, wins: 4, totalDiff: -10, joinMonth: "Veteran" },
-            { name: "Betty", gender: "F", games: 32, wins: 17, totalDiff: -7, joinMonth: "Veteran" },
-            { name: "Gusti", gender: "M", games: 31, wins: 22, totalDiff: 29, joinMonth: "Juni" },
-            { name: "Raka", gender: "M", games: 20, wins: 8, totalDiff: -19, joinMonth: "Juli" },
-            { name: "Kiswoyo", gender: "M", games: 13, wins: 5, totalDiff: -14, joinMonth: "Veteran" },
-            { name: "Adnan", gender: "M", games: 37, wins: 17, totalDiff: 2, joinMonth: "Mei" },
-            { name: "Yoses", gender: "M", games: 19, wins: 10, totalDiff: 5, joinMonth: "Juni" },
-            { name: "Bimo", gender: "M", games: 10, wins: 6, totalDiff: 10, joinMonth: "Veteran" },
-            { name: "Reno", gender: "F", games: 10, wins: 6, totalDiff: 10, joinMonth: "Veteran" },
-            { name: "Syafrul", gender: "M", games: 6, wins: 2, totalDiff: -6, joinMonth: "Veteran" },
-            { name: "Ade", gender: "M", games: 16, wins: 11, totalDiff: 8, joinMonth: "Juni" },
-            { name: "Wils", gender: "M", games: 31, wins: 22, totalDiff: 38, joinMonth: "Veteran" },
-            { name: "Danar", gender: "M", games: 19, wins: 12, totalDiff: 15, joinMonth: "Veteran" },
-            { name: "Hanif", gender: "M", games: 13, wins: 6, totalDiff: -5, joinMonth: "Veteran" },
-            { name: "Uti", gender: "F", games: 10, wins: 4, totalDiff: -2, joinMonth: "Veteran" },
-            { name: "Shania", gender: "F", games: 6, wins: 0, totalDiff: -12, joinMonth: "Veteran" },
-            { name: "Adi", gender: "M", games: 4, wins: 1, totalDiff: -4, joinMonth: "Veteran" },
-            { name: "Anri", gender: "M", games: 6, wins: 2, totalDiff: -6, joinMonth: "Veteran" },
-            { name: "Devia", gender: "F", games: 4, wins: 0, totalDiff: -8, joinMonth: "Veteran" },
-            { name: "Barkah", gender: "M", games: 4, wins: 2, totalDiff: 0, joinMonth: "Veteran" },
-            { name: "Totong", gender: "M", games: 4, wins: 2, totalDiff: 2, joinMonth: "Juli" },
-            { name: "Cesie", gender: "F", games: 6, wins: 2, totalDiff: -3, joinMonth: "Veteran" },
-            { name: "Dee", gender: "F", games: 10, wins: 2, totalDiff: -13, joinMonth: "Veteran" },
-            { name: "Haidir", gender: "M", games: 11, wins: 5, totalDiff: -11, joinMonth: "Veteran" },
-            { name: "Rama", gender: "M", games: 6, wins: 2, totalDiff: -9, joinMonth: "Agustus" },
-            { name: "Ridha", gender: "F", games: 8, wins: 3, totalDiff: -6, joinMonth: "Veteran" },
-            { name: "Agam", gender: "M", games: 8, wins: 4, totalDiff: 8, joinMonth: "Veteran" },
-            { name: "Winda", gender: "F", games: 8, wins: 2, totalDiff: -10, joinMonth: "Mei" },
-            { name: "Nisa", gender: "F", games: 6, wins: 4, totalDiff: 2, joinMonth: "Veteran" },
-            { name: "Robertus", gender: "M", games: 7, wins: 4, totalDiff: 0, joinMonth: "Veteran" },
-            { name: "Tiara", gender: "F", games: 6, wins: 2, totalDiff: -3, joinMonth: "Veteran" },
-            { name: "Tyan", gender: "F", games: 7, wins: 4, totalDiff: -3, joinMonth: "Veteran" },
-            { name: "Ivo", gender: "F", games: 27, wins: 11, totalDiff: -3, joinMonth: "Veteran" },
-            { name: "Alief", gender: "M", games: 14, wins: 4, totalDiff: -8, joinMonth: "Juli" },
-            { name: "Dzaky", gender: "M", games: 14, wins: 4, totalDiff: -14, joinMonth: "Veteran" },
-            { name: "Heru", gender: "M", games: 14, wins: 8, totalDiff: 8, joinMonth: "Veteran" },
-            { name: "Bima", gender: "M", games: 2, wins: 1, totalDiff: 1, joinMonth: "Veteran" },
-            { name: "Danang", gender: "M", games: 2, wins: 1, totalDiff: -1, joinMonth: "Veteran" },
-            { name: "Dina", gender: "F", games: 3, wins: 0, totalDiff: -10, joinMonth: "Veteran" },
-            { name: "Fauza", gender: "F", games: 5, wins: 3, totalDiff: 3, joinMonth: "Veteran" },
-            { name: "Hendra", gender: "M", games: 4, wins: 1, totalDiff: -6, joinMonth: "Veteran" },
-            { name: "Irfann", gender: "M", games: 4, wins: 2, totalDiff: 4, joinMonth: "Veteran" },
-            { name: "Irfaan", gender: "M", games: 7, wins: 3, totalDiff: -9, joinMonth: "Veteran" },
-            { name: "Lidya", gender: "F", games: 5, wins: 2, totalDiff: -3, joinMonth: "Veteran" },
-            { name: "Metrik", gender: "M", games: 5, wins: 2, totalDiff: -1, joinMonth: "Veteran" },
-            { name: "Tika", gender: "F", games: 2, wins: 1, totalDiff: -1, joinMonth: "Veteran" },
-            { name: "Yusuf", gender: "M", games: 11, wins: 6, totalDiff: 1, joinMonth: "Veteran" },
-            { name: "Geo", gender: "M", games: 2, wins: 1, totalDiff: -2, joinMonth: "Juni" },
-            { name: "Yoga", gender: "M", games: 8, wins: 5, totalDiff: 4, joinMonth: "Veteran" },
-            { name: "Yasaya", gender: "M", games: 7, wins: 3, totalDiff: -3, joinMonth: "Veteran" },
-            { name: "Khairul", gender: "M", games: 7, wins: 2, totalDiff: -13, joinMonth: "Veteran" },
-            { name: "Eko", gender: "M", games: 4, wins: 3, totalDiff: 4, joinMonth: "Mei" },
-            { name: "Aliy", gender: "M", games: 101, wins: 76, totalDiff: 112, joinMonth: "Agustus" }
-        ];
-
-        // ============================================
-        // DATA SINGLE FORMAT
-        // ============================================
-        const rawSinglePlayersData = [
-            { name: "Aby", gender: "M", games: 4, wins: 3, totalDiff: 0, joinMonth: "Juli" },
-            { name: "Ade", gender: "M", games: 16, wins: 11, totalDiff: 8, joinMonth: "Juni" },
-            { name: "Adhan", gender: "M", games: 4, wins: 3, totalDiff: 4, joinMonth: "Juni" },
-            { name: "Adi", gender: "M", games: 4, wins: 2, totalDiff: 0, joinMonth: "Agustus" },
-            { name: "Adnan", gender: "M", games: 8, wins: 5, totalDiff: 2, joinMonth: "Mei" },
-            { name: "Akhmad", gender: "M", games: 4, wins: 0, totalDiff: -10, joinMonth: "Agustus" },
-            { name: "Alfred", gender: "M", games: 4, wins: 1, totalDiff: 0, joinMonth: "Juli" },
-            { name: "Alief", gender: "M", games: 12, wins: 3, totalDiff: -15, joinMonth: "Agustus" },
-            { name: "Aliy", gender: "M", games: 52, wins: 43, totalDiff: 90, joinMonth: "Agustus" },
-            { name: "Amani", gender: "M", games: 4, wins: 2, totalDiff: 2, joinMonth: "Juni" },
-            { name: "Ambar", gender: "F", games: 4, wins: 0, totalDiff: -7, joinMonth: "Agustus" },
-            { name: "Andhika", gender: "M", games: 4, wins: 4, totalDiff: 12, joinMonth: "Juni" },
-            { name: "Angwyn", gender: "M", games: 8, wins: 4, totalDiff: -4, joinMonth: "Mei" },
-            { name: "Arbar", gender: "M", games: 4, wins: 2, totalDiff: 0, joinMonth: "Mei" },
-            { name: "Arief", gender: "M", games: 4, wins: 3, totalDiff: 2, joinMonth: "Mei" },
-            { name: "Ayub", gender: "M", games: 4, wins: 1, totalDiff: -2, joinMonth: "Agustus" },
-            { name: "Azzam", gender: "M", games: 4, wins: 0, totalDiff: -7, joinMonth: "Agustus" },
-            { name: "Bayu", gender: "M", games: 26, wins: 12, totalDiff: 0, joinMonth: "Agustus" },
-            { name: "Bayuw", gender: "M", games: 8, wins: 4, totalDiff: -1, joinMonth: "Agustus" },
-            { name: "Binka", gender: "M", games: 4, wins: 3, totalDiff: 6, joinMonth: "Juli" },
-            { name: "Dani", gender: "M", games: 8, wins: 0, totalDiff: -21, joinMonth: "Agustus" },
-            { name: "Davy", gender: "M", games: 4, wins: 4, totalDiff: 8, joinMonth: "Agustus" },
-            { name: "Deny", gender: "M", games: 16, wins: 7, totalDiff: -3, joinMonth: "Agustus", lastUpdate: { games: 4, wins: 2, diff: 1 } },
-            { name: "Domas", gender: "M", games: 20, wins: 3, totalDiff: -21, joinMonth: "Juni" },
-            { name: "Dwiki", gender: "M", games: 4, wins: 2, totalDiff: 0, joinMonth: "Juli" },
-            { name: "Ecko", gender: "M", games: 4, wins: 0, totalDiff: -7, joinMonth: "Agustus" },
-            { name: "Eko", gender: "M", games: 4, wins: 3, totalDiff: 4, joinMonth: "Mei" },
-            { name: "Evan", gender: "M", games: 4, wins: 3, totalDiff: 4, joinMonth: "Agustus" },
-            { name: "Fadly", gender: "M", games: 4, wins: 2, totalDiff: -2, joinMonth: "Juli" },
-            { name: "Fahmi", gender: "M", games: 4, wins: 3, totalDiff: 4, joinMonth: "Juni" },
-            { name: "Fien", gender: "F", games: 5, wins: 1, totalDiff: -3, joinMonth: "Juli" },
-            { name: "Frans", gender: "M", games: 12, wins: 7, totalDiff: 6, joinMonth: "Agustus" },
-            { name: "Ganang", gender: "M", games: 4, wins: 1, totalDiff: 0, joinMonth: "Mei" },
-            { name: "Geri", gender: "M", games: 24, wins: 13, totalDiff: 3, joinMonth: "Agustus" },
-            { name: "Gian", gender: "M", games: 4, wins: 2, totalDiff: 2, joinMonth: "Juni" },
-            { name: "Gusti", gender: "M", games: 32, wins: 23, totalDiff: 42, joinMonth: "Agustus", lastUpdate: { games: 4, wins: 3, diff: 6 } },
-            { name: "Hanung", gender: "M", games: 36, wins: 7, totalDiff: -23, joinMonth: "Agustus" },
-            { name: "Hendra", gender: "M", games: 4, wins: 1, totalDiff: -6, joinMonth: "Agustus", lastUpdate: { newPlayer: true } },
-            { name: "Ichal", gender: "M", games: 4, wins: 3, totalDiff: 8, joinMonth: "Juli" },
-            { name: "Indra", gender: "M", games: 2, wins: 1, totalDiff: 0, joinMonth: "Juli" },
-            { name: "Intan", gender: "F", games: 5, wins: 3, totalDiff: 3, joinMonth: "Juli" },
-            { name: "Iqbal", gender: "M", games: 12, wins: 5, totalDiff: -11, joinMonth: "Agustus" },
-            { name: "Iqfal", gender: "M", games: 4, wins: 3, totalDiff: 4, joinMonth: "Agustus" },
-            { name: "Kamil", gender: "M", games: 12, wins: 9, totalDiff: 17, joinMonth: "Agustus" },
-            { name: "Kurniawan", gender: "M", games: 20, wins: 7, totalDiff: -23, joinMonth: "Agustus" },
-            { name: "M Iqbal", gender: "M", games: 8, wins: 2, totalDiff: -12, joinMonth: "Agustus", lastUpdate: { games: 4, wins: 0, diff: -12 } },
-            { name: "Nanang", gender: "M", games: 8, wins: 2, totalDiff: -4, joinMonth: "Juli" },
-            { name: "Nurul", gender: "F", games: 4, wins: 1, totalDiff: -5, joinMonth: "Agustus" },
-            { name: "Octano", gender: "M", games: 20, wins: 10, totalDiff: 0, joinMonth: "Agustus" },
-            { name: "Okta", gender: "F", games: 5, wins: 2, totalDiff: -8, joinMonth: "Juli" },
-            { name: "Pamungkas", gender: "M", games: 4, wins: 3, totalDiff: 4, joinMonth: "Mei" },
-            { name: "Raka", gender: "M", games: 8, wins: 2, totalDiff: -14, joinMonth: "Juli" },
-            { name: "Rakan", gender: "M", games: 4, wins: 4, totalDiff: 9, joinMonth: "Agustus" },
-            { name: "Rama", gender: "M", games: 24, wins: 4, totalDiff: -51, joinMonth: "Agustus" },
-            { name: "Rayest", gender: "M", games: 4, wins: 0, totalDiff: -10, joinMonth: "Juli" },
-            { name: "Reiza", gender: "M", games: 35, wins: 33, totalDiff: 75, joinMonth: "Agustus", lastUpdate: { games: 4, wins: 4, diff: 11 } },
-            { name: "Rendi", gender: "M", games: 8, wins: 6, totalDiff: 4, joinMonth: "Juli" },
-            { name: "Rezza", gender: "M", games: 12, wins: 11, totalDiff: 26, joinMonth: "Agustus" },
-            { name: "Rifian", gender: "M", games: 4, wins: 0, totalDiff: -12, joinMonth: "Juli" },
-            { name: "Rifki", gender: "M", games: 4, wins: 1, totalDiff: -6, joinMonth: "Juli" },
-            { name: "Rizki", gender: "M", games: 8, wins: 7, totalDiff: 16, joinMonth: "Juli" },
-            { name: "Soni", gender: "M", games: 8, wins: 4, totalDiff: 1, joinMonth: "Agustus" },
-            { name: "Taufik", gender: "M", games: 4, wins: 0, totalDiff: -9, joinMonth: "Agustus" },
-            { name: "Totong", gender: "M", games: 20, wins: 16, totalDiff: 29, joinMonth: "Juli" },
-            { name: "Try", gender: "M", games: 32, wins: 7, totalDiff: -43, joinMonth: "Agustus" },
-            { name: "Windra", gender: "M", games: 4, wins: 4, totalDiff: 10, joinMonth: "Mei" },
-            { name: "Wisnu", gender: "M", games: 4, wins: 3, totalDiff: 2, joinMonth: "Juni" },
-            { name: "Yakin", gender: "M", games: 8, wins: 1, totalDiff: -16, joinMonth: "Juli" },
-            { name: "Yoga", gender: "M", games: 4, wins: 1, totalDiff: -6, joinMonth: "Agustus" },
-            { name: "Yoses", gender: "M", games: 4, wins: 0, totalDiff: -10, joinMonth: "Juni" }
+        const rawPlayersData = [
+            { name: "Aliy", gender: "M", games: 9, wins: 6.2, totalDiff: 12.0, joinMonth: "Agustus", lastUpdate: { newPlayer: true } },
+            { name: "Adit", gender: "M", games: 9, wins: 5.8, totalDiff: 5.6, joinMonth: "Agustus", lastUpdate: { newPlayer: true } },
+            { name: "Yerry", gender: "M", games: 10, wins: 4.4, totalDiff: 2.0, joinMonth: "Agustus", lastUpdate: { newPlayer: true } },
+            { name: "Opiw", gender: "F", games: 10, wins: 3.6, totalDiff: -7.6, joinMonth: "Agustus", lastUpdate: { newPlayer: true } },
+            { name: "Anton", gender: "M", games: 10, wins: 2.4, totalDiff: -12.0, joinMonth: "Agustus", lastUpdate: { newPlayer: true } }
         ];
 
         // ============================================
         // LOGIC & STATE
         // ============================================
-        let activeFormat = 'single'; // Default
         let activeGender = 'ALL'; // Default
         let playersData = [];
         let prevPlayersData = []; // Untuk komparasi rank
@@ -544,33 +394,14 @@
             });
         }
 
-        function switchFormat(format) {
-            activeFormat = format;
-            
-            const btnDouble = document.getElementById('btnDouble');
-            const btnSingle = document.getElementById('btnSingle');
-            const activeClass = "px-5 md:px-8 py-2.5 rounded-full text-sm font-bold transition-all duration-300 bg-ace text-white shadow-md flex items-center gap-2 justify-center";
-            const inactiveClass = "px-5 md:px-8 py-2.5 rounded-full text-sm font-bold transition-all duration-300 bg-transparent text-slate-500 hover:text-ace flex items-center gap-2 justify-center";
-            
-            if (format === 'double') {
-                btnDouble.className = activeClass;
-                btnSingle.className = inactiveClass;
-            } else {
-                btnSingle.className = activeClass;
-                btnDouble.className = inactiveClass;
-            }
-
-            initData();
-        }
-
         function switchGender(gender) {
             activeGender = gender;
             
             const btnAll = document.getElementById('btnCatAll');
             const btnM = document.getElementById('btnCatM');
             const btnF = document.getElementById('btnCatF');
-            const activeClass = "px-4 md:px-6 py-2.5 rounded-full text-sm font-bold transition-all duration-300 bg-ace text-white shadow-md flex items-center gap-2 justify-center";
-            const inactiveClass = "px-4 md:px-6 py-2.5 rounded-full text-sm font-bold transition-all duration-300 bg-transparent text-slate-500 hover:text-ace flex items-center gap-2 justify-center";
+            const activeClass = "px-4 md:px-6 py-2.5 rounded-full text-sm font-bold transition-all duration-300 bg-padel text-white shadow-md flex items-center gap-2 justify-center";
+            const inactiveClass = "px-4 md:px-6 py-2.5 rounded-full text-sm font-bold transition-all duration-300 bg-transparent text-slate-500 hover:text-padel flex items-center gap-2 justify-center";
             
             if (btnAll) btnAll.className = gender === 'ALL' ? activeClass : inactiveClass;
             if (btnM) btnM.className = gender === 'M' ? activeClass : inactiveClass;
@@ -580,14 +411,12 @@
         }
 
         function initData() {
-            const rawData = activeFormat === 'double' ? rawDoublePlayersData : rawSinglePlayersData;
-            
             // Generate Data Peringkat Saat Ini
-            const currentTotalGames = getTotalGames(rawData);
-            playersData = calculateStats(rawData, currentTotalGames);
+            const currentTotalGames = getTotalGames(rawPlayersData);
+            playersData = calculateStats(rawPlayersData, currentTotalGames);
             
             // Generate Data Peringkat Sebelum Update (Dengan mundur 1 step lewat logika lastUpdate)
-            const prevRawData = rawData.map(p => {
+            const prevRawData = rawPlayersData.map(p => {
                 if (p.lastUpdate?.newPlayer) return null; // Pemain baru tidak ada di data lama
                 if (p.lastUpdate) {
                     return {
@@ -680,13 +509,15 @@
 
             const totalGamesPlayed = filteredPlayers.reduce((sum, p) => sum + p.games, 0);
             const avgGamesPlayed = (totalGamesPlayed / filteredPlayers.length).toFixed(1);
-            const totalWins = filteredPlayers.reduce((sum, p) => sum + p.wins, 0);
+            
+            // Total wins need to be summed keeping in mind they might be decimals now
+            const totalWins = filteredPlayers.reduce((sum, p) => sum + p.wins, 0).toFixed(1);
 
             const stats = [
                 { label: 'Pemain Ditampilkan', value: filteredPlayers.length, icon: '👥', color: 'text-blue-600', bg: 'bg-blue-100' },
                 { label: 'Total Games', value: totalGamesPlayed, icon: '🎾', color: 'text-emerald-600', bg: 'bg-emerald-100' },
-                { label: 'Rata-rata Games', value: avgGamesPlayed, icon: '📊', color: 'text-purple-600', bg: 'bg-purple-100' },
-                { label: 'Total Wins', value: totalWins, icon: '🔥', color: 'text-amber-600', bg: 'bg-amber-100' }
+                { label: 'Rata-rata Games', value: avgGamesPlayed, icon: '📊', color: 'text-padel-accent', bg: 'bg-purple-100' },
+                { label: 'Weighted Wins', value: totalWins, icon: '🔥', color: 'text-amber-600', bg: 'bg-amber-100' }
             ];
 
             summaryDiv.innerHTML = stats.map(stat => `
@@ -714,7 +545,7 @@
 
             tbody.innerHTML = filteredPlayers.map((p, index) => {
                 const isTopHighlight = (sortBy !== 'name' && index < 3);
-                const rowClass = isTopHighlight ? 'bg-purple-50/40 hover:bg-purple-50' : 'hover:bg-slate-50';
+                const rowClass = isTopHighlight ? 'bg-emerald-50/40 hover:bg-emerald-50' : 'hover:bg-slate-50';
                 const nameClass = isTopHighlight ? 'font-bold text-slate-900 text-base' : 'font-semibold text-slate-700';
 
                 // ==========================
@@ -739,7 +570,8 @@
                     }
                 }
 
-                const losses = p.games - p.wins;
+                // Kalkulasi Record W-L dengan Desimal
+                const losses = (p.games - p.wins).toFixed(1);
                 const winRateClass = p.winRate > 80 ? 'text-emerald-600' : (p.winRate <= 50 ? 'text-rose-600' : 'text-amber-500');
                 
                 const winRateDisplay = `${p.winRate.toFixed(1)}%`;
@@ -754,7 +586,7 @@
 
                 const totalDiffPrefix = p.totalDiff > 0 ? '+' : '';
                 const avgDiffPrefix = p.avgDiff > 0 ? '+' : '';
-                const diffPointColor = p.diffPoint > 0 ? 'text-purple-600' : (p.diffPoint < 0 ? 'text-rose-600' : 'text-slate-500');
+                const diffPointColor = p.diffPoint > 0 ? 'text-padel-accent' : (p.diffPoint < 0 ? 'text-rose-600' : 'text-slate-500');
                 const diffPointPrefix = p.diffPoint > 0 ? '+' : '';
 
                 const gamePointColor = p.gamePoint > 5 ? 'text-blue-600' : (p.gamePoint < 0 ? 'text-rose-500' : 'text-slate-600');
@@ -780,7 +612,7 @@
                             <span class="${nameClass}">${p.name}</span>
                         </td>
                         <td class="px-6 py-4 whitespace-nowrap text-center">
-                            <div><span class="font-bold text-emerald-600">${p.wins}W</span> <span class="text-slate-300 mx-1">-</span> <span class="font-bold text-rose-500">${losses}L</span></div>
+                            <div><span class="font-bold text-emerald-600">${p.wins.toFixed(1)}W</span> <span class="text-slate-300 mx-1">-</span> <span class="font-bold text-rose-500">${losses}L</span></div>
                             ${joinBadge}
                         </td>
                         <td class="px-6 py-4 whitespace-nowrap text-center font-bold ${winRateClass}">
@@ -789,14 +621,14 @@
                         <td class="px-6 py-4 whitespace-nowrap text-center font-bold text-slate-700">
                             ${p.games}
                         </td>
-                        <td class="px-6 py-4 whitespace-nowrap text-center font-bold ${diffPointColor} tooltip-hint" title="Berasal dari perhitungan: (Total Diff: ${totalDiffPrefix}${p.totalDiff} × 0.15) + (Avg Diff: ${avgDiffPrefix}${p.avgDiff.toFixed(2)} × 2.0)">
+                        <td class="px-6 py-4 whitespace-nowrap text-center font-bold ${diffPointColor} tooltip-hint" title="Berasal dari perhitungan: (Total Diff: ${totalDiffPrefix}${p.totalDiff.toFixed(1)} × 0.15) + (Avg Diff: ${avgDiffPrefix}${p.avgDiff.toFixed(2)} × 2.0)">
                             ${diffPointPrefix}${p.diffPoint.toFixed(1)}
                         </td>
                         <td class="px-6 py-4 whitespace-nowrap text-center font-bold ${gamePointColor} tooltip-hint" title="${gamePointTooltip}">
                             ${gamePointPrefix}${p.gamePoint.toFixed(1)} ${penaltyIcon}
                         </td>
-                        <td class="px-6 py-4 whitespace-nowrap text-center bg-purple-50/40">
-                            <span class="text-lg font-black text-ace-dark">${p.totalPoints.toFixed(1)}</span>
+                        <td class="px-6 py-4 whitespace-nowrap text-center bg-emerald-50/40">
+                            <span class="text-lg font-black text-padel-dark">${p.totalPoints.toFixed(1)}</span>
                         </td>
                     </tr>
                 `;
